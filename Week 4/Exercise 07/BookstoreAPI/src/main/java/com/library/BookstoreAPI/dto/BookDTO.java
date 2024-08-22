@@ -12,18 +12,18 @@ import lombok.NoArgsConstructor;
 @JsonInclude(JsonInclude.Include.NON_NULL) // Include only non-null fields
 public class BookDTO {
     
-    @JsonProperty("book_id")
+    @JsonProperty("id")
     private int id;
     
-    @JsonProperty("book_title")
+    @JsonProperty("title")
     private String title;
     
-    @JsonProperty("book_author")
+    @JsonProperty("author")
     private String author;
     
-    @JsonProperty("book_price")
+    @JsonProperty("price")
     private double price;
     
-    @JsonProperty("book_isbn")
+    @JsonProperty("isbn")
     private String isbn;
 }
