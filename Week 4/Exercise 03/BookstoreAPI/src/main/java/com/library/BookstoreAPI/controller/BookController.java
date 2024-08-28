@@ -26,7 +26,7 @@ public class BookController {
                 return book;
             }
         }
-        return null; // In a real application, you'd throw an exception or return a 404 status
+        return null; 
     }
 
 
